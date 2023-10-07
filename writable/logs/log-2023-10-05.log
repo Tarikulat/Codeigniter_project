@@ -1,0 +1,175 @@
+INFO - 2023-10-05 13:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 13:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 13:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 14:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 14:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 16:51:36 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:53:25 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:55:30 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 16:56:43 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-05 16:59:24 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in G:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 G:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 G:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\xampp\htdocs\Codeigniter_project\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\xampp\htdocs\Codeigniter_project\app\Controllers\RoomController.php(10): CodeIgniter\BaseModel->findAll()
+#7 G:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\RoomController->listroom()
+#8 G:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#9 G:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-05 16:59:24 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rooms`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RoomController.php(10): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->listroom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:01:08 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:02:48 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:04:05 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:05:24 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:05:47 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:05:50 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:15:01 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:17:26 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:18:47 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:19:32 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:20:32 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 17:20:35 --> Invalid file: "add_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_room.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add_room', [], true)
+ 3 APPPATH\Controllers\RoomController.php(15): view('add_room')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->formroom()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

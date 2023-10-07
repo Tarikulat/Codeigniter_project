@@ -1,0 +1,475 @@
+INFO - 2023-10-07 03:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 03:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-07 03:09:56 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('about')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->fabout()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:11:16 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('about')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->fabout()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:12:11 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('about')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->fabout()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:16:02 --> Invalid file: "about.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('about', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('about')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->fabout()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:39:40 --> Undefined variable $page_title
+in APPPATH\Views\front\about.php on line 10.
+ 1 APPPATH\Views\front\about.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('front/about', null, true)
+ 5 APPPATH\Views\home.php(6): CodeIgniter\View\View->include('front/about')
+ 6 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:41:08 --> Undefined variable $page_title
+in APPPATH\Views\front\about.php on line 10.
+ 1 APPPATH\Views\front\about.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('front/about', null, true)
+ 5 APPPATH\Views\home.php(6): CodeIgniter\View\View->include('front/about')
+ 6 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:42:24 --> Undefined variable $page_title
+in APPPATH\Views\front\about.php on line 10.
+ 1 APPPATH\Views\front\about.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\front\\about.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('front/about', null, true)
+ 5 APPPATH\Views\home.php(6): CodeIgniter\View\View->include('front/about')
+ 6 SYSTEMPATH\View\View.php(226): include('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:50:26 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:52:08 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:52:10 --> Invalid file: "home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:01:37 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:01:52 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:14:54 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:16:22 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:02 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:02 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:02 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:03 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:03 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:03 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:17:03 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:20:44 --> Invalid file: "includes/room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('includes/room.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('includes/room', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/room', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('front/page/room', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->froom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 05:01:46 --> Invalid file: "front/page/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/page/home.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/page/home', [], true)
+ 3 APPPATH\Controllers\Home.php(12): view('front/page/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 05:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 05:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-07 05:55:49 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 05:55:49 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 05:55:55 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 05:55:55 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 05:56:14 --> mysqli_sql_exception: Unknown column 'id' in 'order clause' in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\Codeigniter_project\app\Controllers\RoomController.php(10): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\RoomController->listroom()
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-07 05:56:14 --> Unknown column 'id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rooms`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RoomController.php(10): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\RoomController->listroom()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoomController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:03:47 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:03:47 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:07:38 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:07:38 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:12:52 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:12:52 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:13:42 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:13:42 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:13:46 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:13:46 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 06:16:59 --> mysqli_sql_exception: Column 'name' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\UserCrud.php(28): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 06:16:59 --> Column 'name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `phone`, `age`, `address`) VALUES (:name:, :email:, :phone:, :age:, :address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(28): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-07 06:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-07 06:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
