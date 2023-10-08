@@ -5,6 +5,7 @@
    <div class="col-md-2 mt-4 p-5"></div>
    <div class="col-md-10 mt-4 p-5">
       <div class="d-flex justify-content-end">
+      <h1 class="text-center p-3 mb-2 bg-primary text-white">User Details</h1>
          <a href="<?php echo site_url('/user-form') ?>" class="btn btn-success mb-2">Add User</a>
       </div>
       <?php

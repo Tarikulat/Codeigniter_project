@@ -5,7 +5,7 @@
 <div class="d-flex">
    <div class="col-md-2 mt-4 p-5"></div>
    <div class="col-md-10 mt-4 p-5">
-      <h1 class="text-success text-center">New Booking List</h1>
+      <h1 class="text-center p-3 mb-2 bg-danger text-white">New Booking List</h1>
 
       <?php
       if (isset($_SESSION['msg'])) {

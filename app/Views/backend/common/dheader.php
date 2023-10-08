@@ -181,7 +181,7 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="#">
+                    <a href="rooms-list">
                       <i class="fa fa-list"></i>
                       <span>Room Catagory List</span>
                       <i class="fa fa-angle-left pull-right"></i>

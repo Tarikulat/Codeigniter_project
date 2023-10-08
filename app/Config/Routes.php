@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-//front pages 
+//front pages A
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'Home::fabout');
 $routes->get('/service', 'Home::fservice');
@@ -14,12 +14,21 @@ $routes->get('/room', 'Home::froom');
 $routes->get('/team', 'Home::fteam');
 $routes->get('/contact', 'Home::fcontact');
 
-//admin panel
+//admin panel B
 $routes->get( 'master', 'Master::dash');
 $routes->get( 'dashboard', 'Master::dashboard');
-$routes->get( 'footer', 'Master::footer');
+// $routes->get( 'footer', 'Master::footer');
 
-// BOOKING RESTful Routes
+ //Route for login C
+ $routes->get('/', 'SignupController::index');
+ $routes->get('/signup', 'SignupController::index');
+ $routes->match(['get', 'post'], 'SignupController/store', 'SignupController::store');
+ $routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController::loginAuth');
+ $routes->get('/signin', 'SigninController::index');
+ $routes->get('/profile', 'ProfileController::index',['filter' => 'AuthGuard']);
+//......................................................................................
+
+// BOOKING RESTful Routes 1
 $routes->get('book-list', 'Book::index');
 $routes->get('book-form', 'Book::create');
 $routes->post('book-form', 'Book::store');
@@ -28,8 +37,7 @@ $routes->post('book-update/(:num)', 'Book::update/$1');
 $routes->get('book-delete/(:num)', 'Book::delete/$1');
 
 
-
-// CRUD RESTful user details Routes
+// CRUD RESTful user details Routes users 2
 $routes->get('users-list', 'UserCrud::index');
 $routes->get('user-form', 'UserCrud::create');
 $routes->post('submit-form', 'UserCrud::store');
@@ -38,24 +46,16 @@ $routes->post('update', 'UserCrud::update');
 $routes->get('delete/(:num)', 'UserCrud::delete/$1');
 
 
-// Rooms  Routes
+// Rooms  Routes 3
 $routes->get('rooms-list', 'RoomController::listroom');
 $routes->get('room_add', 'RoomController::formroom');
 $routes->post('submit-form', 'RoomController::storeroom');
 $routes->get('edit-view/(:num)', 'RoomController::singleUser/$1');
 $routes->post('update', 'RoomController::update');
 $routes->get('delete/(:num)', 'RoomController::delete/$1');
-/*
- * --------------------------------------------------------------------
- * Route for login +
- * --------------------------------------------------------------------
- */
-$routes->get('/', 'SignupController::index');
-$routes->get('/signup', 'SignupController::index');
-$routes->match(['get', 'post'], 'SignupController/store', 'SignupController::store');
-$routes->match(['get', 'post'], 'SigninController/loginAuth', 'SigninController::loginAuth');
-$routes->get('/signin', 'SigninController::index');
-$routes->get('/profile', 'ProfileController::index',['filter' => 'AuthGuard']);
+
+ 
+
 
 
 
