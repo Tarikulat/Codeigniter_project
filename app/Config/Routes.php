@@ -16,6 +16,8 @@ $routes->get('/contact', 'Home::fcontact');
 
 //admin panel
 $routes->get( 'master', 'Master::dash');
+$routes->get( 'dashboard', 'Master::dashboard');
+$routes->get( 'footer', 'Master::footer');
 
 // BOOKING RESTful Routes
 $routes->get('book-list', 'Book::index');

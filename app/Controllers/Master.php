@@ -8,4 +8,5 @@ class Master extends BaseController
         {
             return view('master');
         }
+
 }

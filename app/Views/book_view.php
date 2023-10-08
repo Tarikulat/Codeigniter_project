@@ -1,15 +1,8 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Booking From</title>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-</head>
-
-<body>
-   <div class="container mt-4 p-5">
+<?= $this->extend('backend/common/dheader');?>
+<?= $this->section('content');?>
+<div class="d-flex">
+   <div class="col-md-2 mt-4 p-5"></div>
+   <div class="col-md-10 mt-4 p-5">
       <h1 class="text-success text-center">New Booking List</h1>
 
       <?php
@@ -41,8 +34,8 @@
                         <td><?php echo $booking['time']; ?></td>
                         <td><?php echo $booking['stay']; ?></td>
                         <td>
-                           <a href="<?php echo base_url('public/book-edit/'.$booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
-                           <a href="<?php echo base_url('public/book-delete/' . $booking['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
+                           <a href="<?php echo base_url('book-edit/'.$booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
+                           <a href="<?php echo base_url('book-delete/' . $booking['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                         </td>
                      </tr>
                   <?php endforeach; ?>
@@ -51,15 +44,10 @@
          </table>
       </div>
    </div>
-
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-   <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+</div>
+<?= $this->endSection('content');?>
    <script>
       $(document).ready(function() {
          $('#book-list').DataTable();
       });
    </script>
-</body>
-
-</html>

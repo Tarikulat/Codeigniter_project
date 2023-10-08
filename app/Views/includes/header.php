@@ -7,7 +7,7 @@
   <title>Codeigniter Project | Tarikul</title>
 
 <!-- Favicon -->
-<link href="<?php echo base_url(); ?>public/assets/img/favicon.ico" rel="icon">
+<link href="<?php echo base_url(); ?>assets/img/favicon.ico" rel="icon">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +19,15 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 <!-- Libraries Stylesheet -->
-<link href="<?php echo base_url(); ?>public/assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="<?php echo base_url(); ?>public/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="<?php echo base_url(); ?>public/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+<link href="<?php echo base_url(); ?>assets/lib/animate/animate.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
 <!-- Customized Bootstrap Stylesheet -->
-<link href="<?php echo base_url(); ?>public/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
 
-<link href="<?php echo base_url(); ?>public/assets/css/style.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -82,19 +82,19 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
               <div class="navbar-nav mr-auto py-0">
-                <a href="<?php echo base_url(); ?>public/" class="nav-item nav-link active">Home</a>
-                <a href="<?php echo base_url(); ?>public/about" class="nav-item nav-link">About</a>
-                <a href="<?php echo base_url(); ?>public/service" class="nav-item nav-link">Services</a>
-                <a href="<?php echo base_url(); ?>public/room" class="nav-item nav-link">Rooms</a>
+                <a href="<?php echo base_url(); ?>" class="nav-item nav-link active">Home</a>
+                <a href="<?php echo base_url(); ?>about" class="nav-item nav-link">About</a>
+                <a href="<?php echo base_url(); ?>service" class="nav-item nav-link">Services</a>
+                <a href="<?php echo base_url(); ?>room" class="nav-item nav-link">Rooms</a>
                 <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                   <div class="dropdown-menu rounded-0 m-0">
-                    <a href="<?= base_url("/public/book-form")?>" class="dropdown-item">Booking</a>
-                    <a href="<?php echo base_url(); ?>public/team" class="dropdown-item">Our Team</a>
-                    <a href="<?php echo base_url(); ?>public/room" class="dropdown-item">Packages</a>
+                    <a href="<?= base_url("/book-form")?>" class="dropdown-item">Booking</a>
+                    <a href="<?php echo base_url(); ?>team" class="dropdown-item">Our Team</a>
+                    <a href="<?php echo base_url(); ?>room" class="dropdown-item">Packages</a>
                   </div>
                 </div>
-                <a href="<?php echo base_url(); ?>public/contact" class="nav-item nav-link">Contact us</a>
+                <a href="<?php echo base_url(); ?>contact" class="nav-item nav-link">Contact us</a>
               </div>
               <div>
               <a href="signin" class="nav-item nav-link"> <button type="submit">Login</button> </a>
@@ -185,17 +185,17 @@
   <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/wow/wow.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/easing/easing.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/counterup/counterup.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="<?php echo base_url(); ?>public/assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/wow/wow.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/easing/easing.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/counterup/counterup.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Javascript -->
-    <script src="<?php echo base_url(); ?>public/assets/js/main.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 </body>
 
 

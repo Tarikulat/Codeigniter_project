@@ -8,8 +8,5 @@
 <?= $this->include('front/commen/service');?>
 <?= $this->include('front/commen/team');?>
 
-  
 
-
-<?= $this->include('includes/footer');?>
 <?= $this->endSection('content');?>

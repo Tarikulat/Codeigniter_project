@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Codeigniter 4</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <style>
+<?= $this->extend('backend/common/dheader');?>
+<?= $this->section('content');?>
+<style>
     .container {
       max-width: 500px;
+      padding-top: 50px;
     }
     .error {
       display: block;
@@ -14,11 +12,9 @@
       color: red;
     }
   </style>
-</head>
-<body>
-  <div class="container mt-5">
+  <div class="container mt-5 p-5">
     <form method="post" id="update_user" name="update_user" 
-    action="<?= base_url('public/book-update/').$user_obj["id"]?>">
+    action="<?= base_url('book-update/').$user_obj["id"]?>">
    
       <div class="form-group">
         <label>Name</label>
@@ -47,9 +43,7 @@
       </div>
     </form>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+  <?= $this->endSection('content');?>
   <script>
     if ($("#update_user").length > 0) {
       $("#update_user").validate({
@@ -103,5 +97,3 @@
       })
     }
   </script>
-</body>
-</html>

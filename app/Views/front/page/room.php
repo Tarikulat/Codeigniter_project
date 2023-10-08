@@ -14,7 +14,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-1.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-1.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -36,7 +36,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-2.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-2.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -66,7 +66,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-3.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-3.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -96,7 +96,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-1.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-1.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -135,7 +135,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-2.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-2.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -165,7 +165,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="<?php echo base_url(); ?>public/assets/img/room-3.jpg" alt="">
+                                <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-3.jpg" alt="">
                                 <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
                             </div>
                             <div class="p-4 mt-2">
@@ -195,7 +195,7 @@
                                 <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/public/book-form")?>">Book Now</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="<?= base_url("/book-form")?>">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -214,12 +214,12 @@
                         <h1 class="text-white mb-4">Discover A Brand Luxurious Hotel</h1>
                         <p class="text-white mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                         <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Our Rooms</a>
-                        <a href="<?= base_url("/public/book-form")?>" class="btn btn-light py-md-3 px-md-5">Book A Room</a>
+                        <a href="<?= base_url("/book-form")?>" class="btn btn-light py-md-3 px-md-5">Book A Room</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="video">
-                        <button type="button" class="btn-play" data-bs-toggle="modal" src="<?php echo base_url(); ?>public/assets/img/video.mp4" data-bs-target="#videoModal">
+                        <button type="button" class="btn-play" data-bs-toggle="modal" src="<?php echo base_url(); ?>assets/img/video.mp4" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
