@@ -1,5 +1,7 @@
-<?= $this->extend('backend/common/dheader');?>
+
+ <?= $this->extend('backend/common/dheader');?>   <!--page mastering -->
 <?= $this->section('content');?>
+
 <style>
     .container {
       max-width: 500px;
@@ -12,27 +14,87 @@
       color: red;
     }
   </style>
+
   <div class="container mt-5 p-5">
     <form method="post" id="update_user" name="update_user" 
     action="<?= base_url('book-update/').$user_obj["id"]?>">
    
-      <div class="form-group">
-        <label>Name</label>
-        <input type="text" name="name" class="form-control" value="<?php echo $user_obj['name']; ?>">
-      </div>
-      <div class="form-group">
-        <label>Contract</label>
-        <input type="text" name="contract" class="form-control" value="<?php echo $user_obj['contract']; ?>">
-      </div>
+    <div class="form-group">
+          <label>Adress:</label>
+          <input type="text" name="address" class="form-control" placeholder="Input your address" value="<?php echo $user_obj['address']; ?>">
+        </div>
 
-      <div class="form-group">
-        <label>Check-in Date</label>
-        <input type="date" name="date" class="form-control" value="<?php echo $user_obj['date']; ?>">
-      </div>
-      <div class="form-group">
-        <label>Check-in Time</label>
-        <input type="time" name="time" class="form-control" value="<?php echo $user_obj['time']; ?>">
-      </div>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label>Room Type:</label>
+            <select class="form-select form-control" name="roomtype" value="<?php echo $user_obj['roomtype']; ?>">
+              <option selected>Please Select</option>
+              <option value="1">Deluxe Room</option>
+              <option value="2">Family ROOM</option>
+              <option value="3">Single Room</option>
+              <option value="4">Twin Bed Room</option>
+            </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label>Number of Guests:</label>
+            <select class="form-select form-control" name="guests" value="<?php echo $user_obj['guests']; ?>">
+              <option selected>Please Select</option>
+              <option value="1">1-3 person</option>
+              <option value="2">3-5 person</option>
+              <option value="3">5-7 person</option>
+              <option value="4">7-9 person</option>
+              <option value="5">10+ person</option>
+            </select>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <input type="text" name="first" class="form-control" placeholder="First name" value="<?php echo $user_obj['first']; ?>">
+          </div>
+          <div class="col">
+            <input type="text" name="last" class="form-control" placeholder="Last name" value="<?php echo $user_obj['last']; ?>">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Contract Number:</label>
+          <input type="text" name="contract" class="form-control" placeholder="Input your phone number" value="<?php echo $user_obj['contract']; ?>">
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label>Arrival date:</label>
+              <input type="date" name="arridate" class="form-control" value="<?php echo $user_obj['arridate']; ?>">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label>Check-in time</label>
+              <input type="time" name="arritime" class="form-control" value="<?php echo $user_obj['arritime']; ?>">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="form-group">
+              <label>Departure date:</label>
+              <input type="date" name="depdate" class="form-control" value="<?php echo $user_obj['depdate']; ?>">
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group">
+              <label>Check-out time:</label>
+              <input type="time" name="deptime" class="form-control" value="<?php echo $user_obj['deptime']; ?>">
+            </div>
+          </div>
+        </div>
       <div class="form-group">
         <label>Days of Stay</label>
         <input type="text" name="stay" class="form-control" value="<?php echo $user_obj['stay']; ?>">
@@ -48,25 +110,56 @@
     if ($("#update_user").length > 0) {
       $("#update_user").validate({
         rules: {
-            name: {
+          address: {
             required: true,
+          },
+          roomtype: {
+            required: true,
+            maxlength: 60,
+            roomtype: true,
+          },
+
+          guests: {
+            required: true,
+            maxlength: 60,
+            guests: true,
+          },
+          first: {
+            required: true,
+            maxlength: 60,
+            first: true,
+          },
+          last: {
+            required: true,
+            maxlength: 60,
+            last: true,
           },
           contract: {
             required: true,
             maxlength: 60,
             contract: true,
           },
-          
-          date: {
+          arridate: {
             required: true,
             maxlength: 60,
-            date: true,
+            arridate: true,
           },
-          time: {
+          arritime: {
             required: true,
             maxlength: 60,
-            time: true,
+            arritime: true,
           },
+          depdate: {
+            required: true,
+            maxlength: 60,
+            depdate: true,
+          },
+          deptime: {
+            required: true,
+            maxlength: 60,
+            deptime: true,
+          },
+
           stay: {
             required: true,
             maxlength: 60,
@@ -74,21 +167,39 @@
           },
 
 
+
         },
         messages: {
-          name: {
-            required: "Name is required.",
+
+          address: {
+            required: "address is required.",
+          },
+          roomtype: {
+            required: "roomtype is required.",
+          },
+          guests: {
+            required: "guests number is required.",
+          },
+          first: {
+            required: "first name is required.",
+          },
+          last: {
+            required: "last name is required.",
           },
           contract: {
-            required: "Contract is required.",
-           
+            required: "contract is required.",
           },
-
-          date: {
-            required: "Date number is required.",
+          arridate: {
+            required: "date is required.",
           },
-          time: {
-            required: "Time is required.",
+          arritime: {
+            required: "time is required.",
+          },
+          depdate: {
+            required: "date is required.",
+          },
+          deptime: {
+            required: "time is required.",
           },
           stay: {
             required: "Stay is required.",

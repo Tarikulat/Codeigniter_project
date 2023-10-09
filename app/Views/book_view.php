@@ -1,3 +1,4 @@
+
 <?= $this->extend('backend/common/dheader');?>
 <?= $this->section('content');?>
 
@@ -17,10 +18,16 @@
             <thead>
                <tr>
                   <th>Booking Id</th>
-                  <th>Name</th>
-                  <th>Contart</th>
-                  <th>Check-in Date</th>
-                  <th>Check-in Time</th>
+                  <th>Adress:</th>
+                  <th>Room Type:</th>
+                  <th>Number of Guests:</th>
+                  <th>First Name:</th>
+                  <th>Last Name:</th>
+                  <th>Contract Number:</th>
+                  <th>Arrival date:</th>
+                  <th>Check-in time:</th>
+                  <th>Departure date:</th>
+                  <th>Check-out time:</th>
                   <th>Days of Stay</th>
                   <th>Action</th>
                </tr>
@@ -30,10 +37,16 @@
                   <?php foreach ($book as $booking) : ?>
                      <tr>
                         <td><?php echo $booking['id']; ?></td>
-                        <td><?php echo $booking['name']; ?></td>
+                        <td><?php echo $booking['address']; ?></td>
+                        <td><?php echo $booking['roomtype']; ?></td>
+                        <td><?php echo $booking['guests']; ?></td>
+                        <td><?php echo $booking['first']; ?></td>
+                        <td><?php echo $booking['last']; ?></td>
                         <td><?php echo $booking['contract']; ?></td>
-                        <td><?php echo $booking['date']; ?></td>
-                        <td><?php echo $booking['time']; ?></td>
+                        <td><?php echo $booking['arridate']; ?></td>
+                        <td><?php echo $booking['arritime']; ?></td>
+                        <td><?php echo $booking['depdate']; ?></td>
+                        <td><?php echo $booking['deptime']; ?></td>
                         <td><?php echo $booking['stay']; ?></td>
                         <td>
                            <a href="<?php echo base_url('book-edit/'.$booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>

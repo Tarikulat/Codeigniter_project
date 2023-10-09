@@ -79,7 +79,7 @@
           </div>
           <div class="col">
             <div class="form-group">
-              <label>Check-in time</label>
+              <label>Check-in time:</label>
               <input type="time" name="arritime" class="form-control">
             </div>
           </div>
@@ -117,25 +117,56 @@
     if ($("#add_create").length > 0) {
       $("#add_create").validate({
         rules: {
-          name: {
+          address: {
             required: true,
+          },
+          roomtype: {
+            required: true,
+            maxlength: 60,
+            roomtype: true,
+          },
+
+          guests: {
+            required: true,
+            maxlength: 60,
+            guests: true,
+          },
+          first: {
+            required: true,
+            maxlength: 60,
+            first: true,
+          },
+          last: {
+            required: true,
+            maxlength: 60,
+            last: true,
           },
           contract: {
             required: true,
             maxlength: 60,
             contract: true,
           },
+          arridate: {
+            required: true,
+            maxlength: 60,
+            arridate: true,
+          },
+          arritime: {
+            required: true,
+            maxlength: 60,
+            arritime: true,
+          },
+          depdate: {
+            required: true,
+            maxlength: 60,
+            depdate: true,
+          },
+          deptime: {
+            required: true,
+            maxlength: 60,
+            deptime: true,
+          },
 
-          date: {
-            required: true,
-            maxlength: 60,
-            date: true,
-          },
-          time: {
-            required: true,
-            maxlength: 60,
-            time: true,
-          },
           stay: {
             required: true,
             maxlength: 60,
@@ -143,21 +174,39 @@
           },
 
 
+
         },
         messages: {
-          name: {
-            required: "Name is required.",
+
+          address: {
+            required: "address is required.",
+          },
+          roomtype: {
+            required: "roomtype is required.",
+          },
+          guests: {
+            required: "guests number is required.",
+          },
+          first: {
+            required: "first name is required.",
+          },
+          last: {
+            required: "last name is required.",
           },
           contract: {
-            required: "Contract is required.",
-
+            required: "contract is required.",
           },
-
-          date: {
-            required: "Date number is required.",
+          arridate: {
+            required: "date is required.",
           },
-          time: {
-            required: "Time is required.",
+          arritime: {
+            required: "time is required.",
+          },
+          depdate: {
+            required: "date is required.",
+          },
+          deptime: {
+            required: "time is required.",
           },
           stay: {
             required: "Stay is required.",

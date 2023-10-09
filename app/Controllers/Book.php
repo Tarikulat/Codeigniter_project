@@ -21,10 +21,16 @@ class Book extends Controller
         $userModel = new BookModel();
 
         $data = [
-            'name' => $this->request->getPost('name'),
-            'contract'  => $this->request->getPost('contract'),
-            'date'  => $this->request->getPost('date'),
-            'time'  => $this->request->getPost('time'),
+            'address' => $this->request->getPost('address'),
+            'roomtype' => $this->request->getPost('roomtype'),
+            'guests' => $this->request->getPost('guests'),
+            'first' => $this->request->getPost('first'),
+            'last' => $this->request->getPost('last'),
+            'contract' => $this->request->getPost('contract'),
+            'arridate' => $this->request->getPost('arridate'),
+            'arritime' => $this->request->getPost('arritime'),
+            'depdate' => $this->request->getPost('depdate'),
+            'deptime' => $this->request->getPost('deptime'),
             'stay'  => $this->request->getPost('stay'),
         ];
         $userModel->insert($data);
@@ -40,11 +46,17 @@ class Book extends Controller
     public function update($id){
         $userModel = new BookModel();
         $data = [
-            'name' => $this->request->getVar('name'),
-            'contract'  => $this->request->getVar('contract'),
-            'date'  => $this->request->getVar('date'),
-            'time'  => $this->request->getVar('time'),
-            'stay'  => $this->request->getVar('stay'),
+            'address' => $this->request->getPost('address'),
+            'roomtype' => $this->request->getPost('roomtype'),
+            'guests' => $this->request->getPost('guests'),
+            'first' => $this->request->getPost('first'),
+            'last' => $this->request->getPost('last'),
+            'contract' => $this->request->getPost('contract'),
+            'arridate' => $this->request->getPost('arridate'),
+            'arritime' => $this->request->getPost('arritime'),
+            'depdate' => $this->request->getPost('depdate'),
+            'deptime' => $this->request->getPost('deptime'),
+            'stay'  => $this->request->getPost('stay'),
         ];
         $userModel->update($id, $data);
         return $this->response->redirect(site_url('/book-list'));
