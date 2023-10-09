@@ -26,7 +26,12 @@ class RoomController extends Controller
         ];
         $roomModel->insert($data);
         return $this->response->redirect(site_url('/rooms-list'));
+        // print_r($data);
+        // $roomModel->insert($data);
+        // return $this->response->redirect(site_url('/rooms-list'));
     }
+
+
     // show single room
     public function singleUser($id = null){
         $roomModel = new RoomModel();

@@ -20,7 +20,7 @@
 
 <body>
   <div class="container mt-5">
-    <form method="post" id="add_room" name="add_room" action="<?= site_url('/submit-form') ?>">
+    <form method="post" id="add_room" name="add_room" action="<?= site_url('submit-room') ?>">
       <h1>Room Form </h1>
 
       <div class="form-group">
@@ -32,18 +32,18 @@
         <label>Category:</label>
         <select  class="form-select form-control" name="category">
           <option selected>select menu</option>
-          <option value="1">Deluxe Room</option>
-          <option value="2">Family ROOM</option>
-          <option value="3">Single Room</option>
-          <option value="4">Twin Bed Room</option>
+          <option value="Deluxe Room">Deluxe Room</option>
+          <option value="Family ROOM">Family ROOM</option>
+          <option value="Single Room">Single Room</option>
+          <option value="Twin Bed Room">Twin Bed Room</option>
         </select>
       </div>
 
       <div class="form-group">
         <label>Availability:</label>
         <select  class="form-select form-control" name="available">
-          <option value="1">Available</option>
-          <option value="2">Unavailable</option>
+          <option value="Available">Available</option>
+          <option value="Unavailable">Unavailable</option>
         </select>
       </div>
 
