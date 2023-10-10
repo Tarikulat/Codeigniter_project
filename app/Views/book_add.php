@@ -20,7 +20,7 @@
 
 <body>
   <div class="container mt-5 border border-info">
-    <form method="post" id="add_create" name="add_create" action="">
+    <form method="post" id="book_create" name="book_create" action="">
       <h1 class="text-success text-center">Hotel Booking From </h1>
 
       <div class="form-group">
@@ -114,8 +114,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
   <script>
-    if ($("#add_create").length > 0) {
-      $("#add_create").validate({
+    if ($("#book_create").length > 0) {
+      $("#book_create").validate({
         rules: {
           address: {
             required: true,

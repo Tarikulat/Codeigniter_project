@@ -39,7 +39,7 @@ class Book extends Controller
     // show single user
     public function singleUser($id){
         $userModel = new BookModel();
-        $data['user_obj'] = $userModel->where('id', $id)->first();
+        $data['book_obj'] = $userModel->where('id', $id)->first();
         return view('book_edit', $data);
     }
     // update user data
