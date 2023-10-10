@@ -355,3 +355,75 @@ in APPPATH\Views\book_edit.php on line 20.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:17:01 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Database\Migrations\2023-10-10-191107_CreatePostsTable.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 19:31:39 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:32:14 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:33:13 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:33:20 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:33:48 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:38:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Database\Migrations\2023-10-10-191107_CreatePostsTable.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 19:43:41 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Database\Migrations\2023-10-10-191107_CreatePostsTable.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-10 19:45:27 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:45:43 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:47:09 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-10 19:47:15 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')

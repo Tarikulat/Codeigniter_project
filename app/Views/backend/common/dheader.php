@@ -188,9 +188,9 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="rooms-list">
+                    <a href="room_post">
                       <i class="fa fa-bed"></i>
-                      <span>Rooms</span>
+                      <span>Rooms Post</span>
                       <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>

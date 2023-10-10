@@ -54,6 +54,15 @@ $routes->get('room_edit/(:num)', 'RoomController::singleUser/$1');
 $routes->post('update_room', 'RoomController::update');
 $routes->get('delete-room/(:num)', 'RoomController::delete/$1');
 
+//room post routes 4
+$routes->get('room_post', 'PostController::newroom');
+$routes->post('post/add', 'PostController::add');
+$routes->get('post/fetch', 'PostController::fetch');
+$routes->get('post/edit/(:num)', 'PostController::edit/$1');
+$routes->get('post/delete/(:num)', 'PostController::delete/$1');
+$routes->get('post/detail/(:num)', 'PostController::detail/$1');
+$routes->post('post/update', 'PostController::update');
+
  
 
 
