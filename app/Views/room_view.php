@@ -23,10 +23,11 @@
             <th>Category</th>
             <th>Availability</th>
             <th>Room Cost</th>
+            <th>Action</th>
           </tr>
         </thead>
         <tbody>
-          <?php if ($rooms) : ?>
+          <?php if ($rooms): ?>
             <?php foreach ($rooms as $room) : ?>
               <tr>
                 <td><?php echo $room['id']; ?></td>
@@ -35,8 +36,8 @@
                 <td><?php echo $room['available']; ?></td>
                 <td><?php echo $room['cost']; ?></td>
                 <td>
-                  <a href="<?php echo base_url('edit-view/' . $room['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
-                  <a href="<?php echo base_url('delete/' . $room['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
+                  <a href="<?php echo base_url('room_edit/' . $room['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
+                  <a href="<?php echo base_url('delete-room/' . $room['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                 </td>
               </tr>
             <?php endforeach; ?>
@@ -47,7 +48,7 @@
   </div>
 </div>
 
-<?= $this->endSection('content'); ?>
+<?= $this->endSection('content'); ?> 
 
 <script>
   $(document).ready(function() {

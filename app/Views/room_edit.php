@@ -18,24 +18,30 @@
 <body>
   <div class="container mt-5">
     <form method="post" id="update_room" name="update_room" 
-    action="<?= site_url('/update') ?>">
-      <input type="hidden" name="id" id="id" value="<?php echo $room_obj['id']; ?>">
+    action="<?= site_url('/update_room') ?>">
+      <input type="hidden" name="id" id="id" value="<?php echo $rooms['id']; ?>">
       <div class="form-group">
         <label>Room No:</label>
-        <input type="text" name="room" class="form-control" value="<?php echo $room_obj['room']; ?>">
+        <input type="text" name="room" class="form-control" value="<?php echo $rooms['room']; ?>">
       </div>
       <div class="form-group">
         <label>Category:</label>
-        <input type="text" name="category:" class="form-control" value="<?php echo $room_obj['category']; ?>">
+        <select  class="form-select form-control" name="category">
+          <option selected><?php echo $rooms['category']; ?></option>
+          <option value="Deluxe Room">Deluxe Room</option>
+          <option value="Family ROOM">Family ROOM</option>
+          <option value="Single Room">Single Room</option>
+          <option value="Twin Bed Room">Twin Bed Room</option>
+        </select>
       </div>
 
       <div class="form-group">
         <label>Availability:</label>
-        <input type="text" name="available" class="form-control" value="<?php echo $room_obj['available']; ?>">
+        <input type="text" name="available" class="form-control" value="<?php echo $rooms['available']; ?>">
       </div>
       <div class="form-group">
         <label>Room Cost:</label>
-        <input type="text" name="cost" class="form-control" value="<?php echo $room_obj['cost']; ?>">
+        <input type="text" name="cost" class="form-control" value="<?php echo $rooms['cost']; ?>">
       </div>
 
       <div class="form-group">

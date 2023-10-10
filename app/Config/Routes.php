@@ -50,9 +50,9 @@ $routes->get('delete/(:num)', 'UserCrud::delete/$1');
 $routes->get('rooms-list', 'RoomController::listroom');
 $routes->get('room_add', 'RoomController::formroom');
 $routes->post('submit-room', 'RoomController::storeroom');
-$routes->get('edit-view/(:num)', 'RoomController::singleUser/$1');
-$routes->post('update', 'RoomController::update');
-$routes->get('delete/(:num)', 'RoomController::delete/$1');
+$routes->get('room_edit/(:num)', 'RoomController::singleUser/$1');
+$routes->post('update_room', 'RoomController::update');
+$routes->get('delete-room/(:num)', 'RoomController::delete/$1');
 
  
 

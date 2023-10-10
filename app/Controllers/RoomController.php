@@ -26,17 +26,15 @@ class RoomController extends Controller
         ];
         $roomModel->insert($data);
         return $this->response->redirect(site_url('/rooms-list'));
-        // print_r($data);
-        // $roomModel->insert($data);
-        // return $this->response->redirect(site_url('/rooms-list'));
+        
     }
 
 
     // show single room
     public function singleUser($id = null){
         $roomModel = new RoomModel();
-        $data['room_obj'] = $roomModel->where('id', $id)->first();
-        return view('edit_view', $data);
+        $data['rooms'] = $roomModel->where('id', $id)->first();
+        return view('room_edit', $data);
     }
     // update room data
     public function update(){
@@ -56,6 +54,6 @@ class RoomController extends Controller
     public function delete($id = null){
         $roomModel = new RoomModel();
         $data['room'] = $roomModel->where('id', $id)->delete($id);
-        return $this->response->redirect(site_url('/rooms-list'));
+        return redirect()->to('/rooms-list');
     }    
 }
