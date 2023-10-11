@@ -1,0 +1,347 @@
+INFO - 2023-10-11 03:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:04:58 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:06:49 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:10:13 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+INFO - 2023-10-11 03:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 03:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 03:32:47 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:33:15 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:35:34 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:35:45 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:35:46 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:38:48 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:40:03 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:44:21 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 03:45:02 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:15 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:30 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:50 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:54 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:54 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:54 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:00:54 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:01:04 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:01:18 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:01:47 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:03:37 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:03:49 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:09:58 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:09 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:34 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:35 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:36 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:36 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:36 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:10:47 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:12:11 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:12:28 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+INFO - 2023-10-11 04:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-11 04:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-11 04:38:30 --> Unclosed '{' on line 7
+in APPPATH\Controllers\PostController.php on line 151.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Controllers\\PostController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PostController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PostController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PostController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:39:39 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:39:59 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:50:56 --> syntax error, unexpected variable "$validation", expecting "function" or "const"
+in APPPATH\Controllers\PostController.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Controllers\\PostController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PostController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PostController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PostController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:52:12 --> syntax error, unexpected variable "$validation", expecting "function" or "const"
+in APPPATH\Controllers\PostController.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\Codeigniter_project\\app\\Controllers\\PostController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PostController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PostController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\PostController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:54:43 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 04:54:53 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 05:02:00 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 05:04:44 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 05:31:31 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 05:33:02 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 07:14:16 --> Class "App\Controllers\AppModelsPostModel" not found
+in APPPATH\Controllers\PostController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->fetch()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+CRITICAL - 2023-10-11 07:14:30 --> Class "App\Controllers\ConfigServices" not found
+in APPPATH\Controllers\PostController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\PostController->add()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')

@@ -16,33 +16,33 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Add New Post</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Add New Room Post</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <form action="#" method="POST" enctype="multipart/form-data" id="add_post_form" novalidate>
+        <form action="add" method="POST" enctype="multipart/form-data" id="add_post_form" novalidate>
           <div class="modal-body p-5">
             <div class="mb-3">
-              <label>Post Title</label>
-              <input type="text" name="title" class="form-control" placeholder="Title" required>
-              <div class="invalid-feedback">Post title is required!</div>
+              <label>Room Post Title</label>
+              <input type="text" name="title" class="form-control" placeholder="Room Title here" required>
+              <div class="invalid-feedback">Room Post title is required!</div>
             </div>
 
             <div class="mb-3">
-              <label>Post Category</label>
-              <input type="text" name="category" class="form-control" placeholder="Category" required>
-              <div class="invalid-feedback">Post category is required!</div>
+              <label>Room Post Category</label>
+              <input type="text" name="category" class="form-control" placeholder="Room Category Input" required>
+              <div class="invalid-feedback">Room category is required!</div>
             </div>
 
             <div class="mb-3">
-              <label>Post Body</label>
-              <textarea name="body" class="form-control" rows="4" placeholder="Body" required></textarea>
-              <div class="invalid-feedback">Post body is required!</div>
+              <label>Room Post of Body</label>
+              <textarea name="body" class="form-control" rows="4" placeholder="Room Body Details here" required></textarea>
+              <div class="invalid-feedback">Room Post body is required!</div>
             </div>
 
             <div class="mb-3">
-              <label>Post Image</label>
+              <label>Room Image</label>
               <input type="file" name="file" id="image" class="form-control" required>
-              <div class="invalid-feedback">Post image is required!</div>
+              <div class="invalid-feedback">Room image is required!</div>
             </div>
           </div>
           <div class="modal-footer">
