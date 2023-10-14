@@ -36,6 +36,7 @@
                 <td><?php echo $room['available']; ?></td>
                 <td><?php echo $room['cost']; ?></td>
                 <td>
+                  <a href="<?php echo base_url('room_view/' . $room['id']); ?>" class="btn btn-warning btn-sm">Views</a>
                   <a href="<?php echo base_url('room_edit/' . $room['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
                   <a href="<?php echo base_url('delete-room/' . $room['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                 </td>

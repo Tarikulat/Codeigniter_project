@@ -34,7 +34,7 @@
 
 </head>
 
-<body class="skin-blue">
+<body class="skin-blue" id="body">
   <div class="wrapper">
 
     <header class="main-header">
@@ -130,7 +130,7 @@
   </div>
 
   <!-- Left side column. contains the logo and sidebar -->
-  <div class="d-flex">
+  <div class=" d-flex">
     <div class="col-md-03 d-flex">
       <aside class="main-sidebar">
         <section class="sidebar">
@@ -164,7 +164,7 @@
             <li class="treeview">
               <a href="book-list">
                 <i class="fa fa-book"></i>
-                <span>Booked</span>
+                <span>Booking Details</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
@@ -203,11 +203,17 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="#">
-                <i class="fa fa-share"></i> <span>Report</span>
+              <a href="<?php echo base_url(); ?>employ-list">
+                <i class="fa fa-user"></i> <span>Employs </span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
-             
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-laptop"></i> <span>Reports</span>
+                <i class="fa fa-angle-left pull-right"></i>
+              </a>
+            </li>
           </ul>
         </section>
       </aside>

@@ -34,6 +34,7 @@ $routes->get('book-form', 'Book::create');
 $routes->post('book-form', 'Book::store');
 $routes->get('book-edit/(:num)', 'Book::singleUser/$1');
 $routes->post('book-update/(:num)', 'Book::update/$1');
+$routes->get('book-print/(:num)', 'Book::singleprint/$1'); //Book Print
 $routes->get('book-delete/(:num)', 'Book::delete/$1');
 
 

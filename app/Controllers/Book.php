@@ -62,6 +62,12 @@ class Book extends Controller
         return $this->response->redirect(site_url('/book-list'));
     }
  
+    //Single Print
+    public function singleprint($id){
+        $userModel = new BookModel();
+        $data['book'] = $userModel->where('id', $id)->first();
+        return view('book_print', $data);
+    }
     // delete user
     public function delete($id){
         $userModel = new BookModel();
