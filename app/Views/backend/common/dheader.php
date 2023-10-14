@@ -203,7 +203,7 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="<?php echo base_url(); ?>employ-list">
+              <a href="<?php echo base_url(); ?>employ_view">
                 <i class="fa fa-user"></i> <span>Employs </span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>

@@ -66,12 +66,14 @@ $routes->post('post/update', 'PostController::update');
 
 
 // Employ details  5
+
+$routes->get('employ_view', 'EmployController::employ');
 $routes->get('employ_add', 'EmployController::employform');
-$routes->get('/employ-list', 'EmployController::storeemploy');
-$routes->post('submit-form', 'EmployController::store');
-$routes->get('edit-view/(:num)', 'EmployController::singleUser/$1');
-$routes->post('update', 'EmployController::update');
-$routes->get('delete/(:num)', 'EmployController::delete/$1');
+$routes->post('submit-employ', 'EmployController::storeemploy');
+
+$routes->get('employ_edit/(:num)', 'EmployController::singleUser/$1');
+$routes->post('/employ-list', 'EmployController::updateemploy');
+$routes->get('employ-list/(:num)', 'EmployController::delete/$1');
  
 
 

@@ -27,7 +27,7 @@ class EmployController extends Controller
             'designation'  => $this->request->getVar('designation'),
         ];
         $employModel->insert($data);
-        return $this->response->redirect(site_url('/employ-list'));
+        return $this->response->redirect(site_url('/employ_view'));
     }
 
     // show single employ
@@ -37,7 +37,7 @@ class EmployController extends Controller
         return view('employ_view', $data);
     }
     // update employ data
-    public function update(){
+    public function updateemploy(){
         $employModel = new EmployModel();
         $id = $this->request->getVar('id');
         $data = [
@@ -48,13 +48,13 @@ class EmployController extends Controller
             'designation'  => $this->request->getVar('designation'),
         ];
         $employModel->update($id, $data);
-        return $this->response->redirect(site_url('/employs-list'));
+        return $this->response->redirect(site_url('/employ-list'));
     }
  
     // delete employ
     public function delete($id = null){
         $employModel = new EmployModel();
         $data['employs'] = $employModel->where('id', $id)->delete($id);
-        return $this->response->redirect(site_url('/employs-list'));
+        return $this->response->redirect(site_url('/employ-list'));
     }    
 }
