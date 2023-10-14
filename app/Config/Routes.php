@@ -37,7 +37,7 @@ $routes->post('book-update/(:num)', 'Book::update/$1');
 $routes->get('book-delete/(:num)', 'Book::delete/$1');
 
 
-// CRUD RESTful user details Routes users 2
+// User Routes users 2
 $routes->get('users-list', 'UserCrud::index');
 $routes->get('user-form', 'UserCrud::create');
 $routes->post('submit-form', 'UserCrud::store');
@@ -63,6 +63,14 @@ $routes->get('post/delete/(:num)', 'PostController::delete/$1');
 $routes->get('post/detail/(:num)', 'PostController::detail/$1');
 $routes->post('post/update', 'PostController::update');
 
+
+// Employ details  5
+$routes->get('employ_add', 'EmployController::employform');
+$routes->get('/employ-list', 'EmployController::storeemploy');
+$routes->post('submit-form', 'EmployController::store');
+$routes->get('edit-view/(:num)', 'EmployController::singleUser/$1');
+$routes->post('update', 'EmployController::update');
+$routes->get('delete/(:num)', 'EmployController::delete/$1');
  
 
 

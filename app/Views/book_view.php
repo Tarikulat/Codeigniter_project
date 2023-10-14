@@ -29,7 +29,9 @@
                   <th>Departure date:</th>
                   <th>Check-out time:</th>
                   <th>Days of Stay</th>
+                  <th>Status</th>
                   <th>Action</th>
+                  
                </tr>
             </thead>
             <tbody>

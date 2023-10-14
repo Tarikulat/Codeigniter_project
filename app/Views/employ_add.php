@@ -1,12 +1,12 @@
 <!-- <!DOCTYPE html>
 <html>
 <head>
-  <title>Codeigniter 4 Add User With Validation Demo</title>
+  <title>Employ add</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
   <?= $this->extend('backend/common/dheader');?>
 <?= $this->section('content');?>
-  
-  <style>
+ 
+ <style>
     .container {
       max-width: 500px;
     }
@@ -20,9 +20,9 @@
 <!-- </head>
 <body> -->
   <div class="container mt-5">
-    <form method="post" id="add_create" name="add_create" 
-    action="<?= site_url('/submit-form') ?>">
-    <h1>Add User Information </h1>
+    <form method="post" id="employ_add" name="employ_add" 
+    action="<?= site_url('/submit-employ') ?>">
+    <h1>Add Employ Information </h1>
       <div class="form-group">
         <label>Name:</label>
         <input type="text" name="name" class="form-control">
@@ -42,24 +42,32 @@
         <input type="text" name="age" class="form-control">
       </div>
 
-      <div class="form-group">
-        <label>Address:</label>
-        <input type="text" name="address" class="form-control">
-      </div>
+      <div class="col">
+          <div class="form-group">
+            <label>Employee Designation:</label>
+            <select class="form-select form-control" name="designation">
+              <option selected>Select a designation</option>
+              <option value="1">Hotel Manager</option>
+              <option value="2">Receptionist</option>
+              <option value="3">Executive chef</option>
+              <option value="4">Night auditor</option>
+            </select>
+          </div>
+        </div>
 
       <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block">Update Data</button>
+        <button type="submit" class="btn btn-primary btn-block">New Employ</button>
       </div>
     </form>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script> -->
+ 
   <?= $this->endSection('content');?>
-  <script>
-    if ($("#add_create").length > 0) {
-      $("#add_create").validate({
+ <script>
+    if ($("#employ_add").length > 0) {
+      $("#employ_add").validate({
         rules: {
           name: {
             required: true,
@@ -80,10 +88,10 @@
             maxlength: 60,
             age: true,
           },
-          address: {
+          designation: {
             required: true,
             maxlength: 60,
-            address: true,
+            designation: true,
           },
 
 
@@ -104,8 +112,8 @@
           age: {
             required: "Age is required.",
           },
-          address: {
-            required: "Address is required.",
+          designation: {
+            required: "Designation is required.",
           },
         },
       })

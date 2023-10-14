@@ -15,11 +15,24 @@
       <div class="col-lg-3 col-xs-6">
         <div class="small-box bg-aqua">
           <div class="inner">
-            <h3>70</h3>
-            <p>New Rooms Booking Order</p>
+          <h3><?= $user ?></h3>
+            <p>Number of Users</p>
           </div>
           <div class="icon">
             <i class="ion ion-bag"></i>
+          </div>
+          <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+          <div class="inner">
+            <h3><?= $book ?></h3>
+            <p> Booked</p>
+          </div>
+          <div class="icon">
+            <i class="ion ion-person-add"></i>
           </div>
           <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
@@ -37,22 +50,10 @@
         </div>
       </div>
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-yellow">
-          <div class="inner">
-            <h3>10</h3>
-            <p> daily New User Registrations</p>
-          </div>
-          <div class="icon">
-            <i class="ion ion-person-add"></i>
-          </div>
-          <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-      </div>
-      <div class="col-lg-3 col-xs-6">
         <div class="small-box bg-red">
           <div class="inner">
             <h3>65</h3>
-            <p>Unique Visitors</p>
+            <p>Employs</p>
           </div>
           <div class="icon">
             <i class="ion ion-pie-graph"></i>

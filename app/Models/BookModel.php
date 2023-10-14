@@ -7,5 +7,5 @@ class BookModel extends Model
     protected $primaryKey = 'id';
     
     protected $allowedFields = ['address', 'roomtype', 'guests',
-     'first', 'last', 'contract', 'arridate', 'arritime', 'depdate', 'deptime', 'stay',];
+     'first', 'last', 'contract', 'arridate', 'arritime', 'depdate', 'deptime', 'stay', 'status',];
 }

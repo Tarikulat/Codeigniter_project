@@ -1,12 +1,12 @@
 <!-- <!DOCTYPE html>
 <html>
 <head>
-  <title>Codeigniter 4 Add User With Validation Demo</title>
+  <title>Employ add</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
   <?= $this->extend('backend/common/dheader');?>
 <?= $this->section('content');?>
-  
-  <style>
+ 
+ <style>
     .container {
       max-width: 500px;
     }
@@ -20,46 +20,52 @@
 <!-- </head>
 <body> -->
   <div class="container mt-5">
-    <form method="post" id="add_create" name="add_create" 
-    action="<?= site_url('/submit-form') ?>">
-    <h1>Add User Information </h1>
+    <form method="post" id="employ_update" name="employ_update" 
+    action="<?= site_url('/update') ?>">
+   
+    <input type="hidden" name="id" id="id" value="<?php echo $employ_obj['id']; ?>">
       <div class="form-group">
         <label>Name:</label>
-        <input type="text" name="name" class="form-control">
+        <input type="text" name="name" class="form-control" value="<?php echo $employ_obj['name']; ?>">
       </div>
       <div class="form-group">
         <label>Email:</label>
-        <input type="text" name="email" class="form-control">
+        <input type="text" name="email" class="form-control" value="<?php echo $employ_obj['email']; ?>">
       </div>
 
       <div class="form-group">
         <label>Phone:</label>
-        <input type="text" name="phone" class="form-control">
+        <input type="text" name="phone" class="form-control" value="<?php echo $employ_obj['phone']; ?>">
       </div>
       
       <div class="form-group">
         <label>Age:</label>
-        <input type="text" name="age" class="form-control">
+        <input type="text" name="age" class="form-control" value="<?php echo $employ_obj['age']; ?>">
       </div>
 
-      <div class="form-group">
-        <label>Address:</label>
-        <input type="text" name="address" class="form-control">
-      </div>
+      <div class="col">
+          <div class="form-group">
+            <label>Employee Designation:</label>
+            <select class="form-select form-control" name="designation" value="<?php echo $employ_obj['designation']; ?>">
+              <option selected>Select a designation</option>
+              <option value="1">Hotel Manager</option>
+              <option value="2">Receptionist</option>
+              <option value="3">Executive chef</option>
+              <option value="4">Night auditor</option>
+            </select>
+          </div>
+        </div>
 
       <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block">Update Data</button>
+        <button type="submit" class="btn btn-primary btn-block">Save Data</button>
       </div>
     </form>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
-
   <?= $this->endSection('content');?>
-  <script>
-    if ($("#add_create").length > 0) {
-      $("#add_create").validate({
+
+ <script>
+    if ($("#employ_update").length > 0) {
+      $("#employ_update").validate({
         rules: {
           name: {
             required: true,
@@ -80,10 +86,10 @@
             maxlength: 60,
             age: true,
           },
-          address: {
+          designation: {
             required: true,
             maxlength: 60,
-            address: true,
+            designation: true,
           },
 
 
@@ -104,8 +110,8 @@
           age: {
             required: "Age is required.",
           },
-          address: {
-            required: "Address is required.",
+          designation: {
+            required: "Designation is required.",
           },
         },
       })

@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
   <title>room add from</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+ 
+  <?= $this->extend('backend/common/dheader');?>
+<?= $this->section('content');?>
+
+
+ <style>
     .container {
       max-width: 500px;
     }
@@ -16,9 +21,9 @@
       color: red;
     }
   </style>
-</head>
+<!-- </head>
 
-<body>
+<body> -->
   <div class="container mt-5">
     <form method="post" id="add_room" name="add_room" action="<?= site_url('submit-room') ?>">
       <h1>Room Form </h1>
@@ -61,6 +66,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+  
+  <?= $this->endSection('content');?>
   <script>
     if ($("#add_room").length > 0) {
       $("#add_room").validate({
@@ -104,6 +111,6 @@
       })
     }
   </script>
-</body>
+<!-- </body>
 
-</html>
+</html> -->
