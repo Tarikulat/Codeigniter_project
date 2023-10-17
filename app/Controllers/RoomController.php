@@ -2,17 +2,27 @@
 namespace App\Controllers;
 use App\Models\RoomModel;
 use CodeIgniter\Controller;
+use App\Models\RoomaddModel; //for roomaddModel dropdown
+
+
+
+
+
 class RoomController extends Controller
 {
-    // show room list
+    // show room list..View
     public function listroom(){
         $roomModel = new RoomModel();
-        $data['rooms'] = $roomModel->orderBy('id', 'DESC')->findAll();
+        $data['rooms'] = $roomModel->orderBy('id', 'DESC')->findAll(); //for join
+
         return view('room_view', $data);
     }
-    // add room form
+    // add room form...Add
     public function formroom(){
-        return view('room_add');
+        $catatype = new RoomaddModel();
+        $data['category'] = $catatype->findAll();
+
+        return view('room_add', $data);
     }
  
     // insert data
@@ -30,12 +40,20 @@ class RoomController extends Controller
     }
 
 
-    // show single room
+    // show single room ...room_edit file...
     public function singleUser($id = null){
-        $roomModel = new RoomModel();
-        $data['rooms'] = $roomModel->where('id', $id)->first();
+        $roomaddModel = new RoomaddModel();
+        $data['rooms'] = $roomaddModel->where('id', $id)->first();
+
+        // $catatype = new RoomaddModel();              //dropdown rk_sh 
+        // $data['category'] = $catatype->findAll();
+
         return view('room_edit', $data);
     }
+
+
+
+
     // update room data
     public function update(){
         $roomModel = new RoomModel();

@@ -2,8 +2,8 @@
 namespace App\Controllers;
 use App\Models\BookModel;
 use CodeIgniter\Controller;
-use App\Models\RoomType;
-use App\Models\person;
+use App\Models\RoomType; //for roomtype dropdown
+use App\Models\person;   //for person dropdown
 
 class Book extends Controller
 {
@@ -11,10 +11,10 @@ class Book extends Controller
     public function index(){
         $userModel = new BookModel();
         $data['book'] = $userModel
-        ->join('roomcatagory','roomcatagory.room_id = book.roomtype')
+        ->join('roomcatagory','roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
         ->join('person','person.person_id = book.guests')
 
-        ->orderBy('id', 'DESC')->findAll();
+        ->orderBy('id', 'DESC')->findAll();  //rk_hs 
         return view('book_view', $data);
     }
     
@@ -49,15 +49,15 @@ class Book extends Controller
         $userModel->insert($data);
         return $this->response->redirect(site_url('/book-form'));
     }
-    // show single user
+    // show single user for booking...Edit
     public function singleUser($id){
         $userModel = new BookModel();
         $data['book_obj'] = $userModel->where('id', $id)->first();
 
-        $type = new RoomType();
+        $type = new RoomType();              //dropdown rk_sh 
         $data['roomtype'] = $type->findAll();
 
-        $person = new person();
+        $person = new person();               //dropdown rk_sh 
         $data['person'] = $person->findAll();
 
         return view('book_edit', $data);

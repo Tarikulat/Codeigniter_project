@@ -34,20 +34,25 @@
             <label>Category:</label>
             <select class="form-select form-control" name="roomtype">
               <option selected>select menu</option>
-              <?php foreach ($roomtype as $row) : ?>
+              <!-- rak_hs for dropdrown room type 1   (next book_edi+ modelcreate=roomtype,person +cotroller) -->
+              <?php foreach ($roomtype as $row) : ?>      
                 <option value="<?= $row['room_id'] ?>"><?= $row['type_name'] ?></option>
               <?php endforeach ?>
+              <!-- rak_hs end-->
             </select>
           </div>
         </div>
+
         <div class="col">
           <div class="form-group">
             <label>Number of Guests:</label>
             <select class="form-select form-control" name="guests">
               <option selected>Please Select</option>
+              <!-- rak_hs for dropdrown person/guest  2-->
               <?php foreach ($person as $row) : ?>
                 <option value="<?= $row['person_id'] ?>"><?= $row['personq'] ?></option>
               <?php endforeach ?>
+              <!-- rak_hs end-->
             </select>
           </div>
         </div>

@@ -30,9 +30,12 @@
             <label>Room Type:</label>
             <select class="form-select form-control" name="roomtype">
               <option selected>select menu</option>
+              <!-- rak_hs for dropdrown roome_type  2-->
               <?php foreach ($roomtype as $row) : ?>
                 <option value="<?= $row['room_id'] ?>" <?=($book_obj['roomtype']==$row['room_id']) ? "selected" : "" ?>><?= $row['type_name'] ?></option>
               <?php endforeach ?>
+              <!-- rak_hs end-->
+
             </select>
           </div>
         </div>
@@ -41,9 +44,12 @@
             <label>Number of Guests:</label>
             <select class="form-select form-control" name="guests" value="<?php echo $book_obj['guests']; ?>">
               <option selected>Please Select</option>
+              <!-- rak_hs for dropdrown person  2-->
               <?php foreach ($person as $row) : ?>
                 <option value="<?= $row['person_id'] ?>" <?=($book_obj['guests']==$row['person_id']) ? "selected" : "" ?>><?= $row['personq'] ?></option>
               <?php endforeach ?>
+              <!-- rak_hs end-->
+
             </select>
           </div>
         </div>

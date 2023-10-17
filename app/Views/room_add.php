@@ -37,10 +37,15 @@
         <label>Category:</label>
         <select  class="form-select form-control" name="category">
           <option selected>select menu</option>
-          <option value="Deluxe Room">Deluxe Room</option>
+
+          <?php foreach ($category as $row) : ?>      
+                <option value="<?= $row['roomadd_id'] ?>"><?= $row['category_name'] ?></option>
+              <?php endforeach ?>
+
+          <!-- <option value="Deluxe Room">Deluxe Room</option>
           <option value="Family ROOM">Family ROOM</option>
           <option value="Single Room">Single Room</option>
-          <option value="Twin Bed Room">Twin Bed Room</option>
+          <option value="Twin Bed Room">Twin Bed Room</option> -->
         </select>
       </div>
 
