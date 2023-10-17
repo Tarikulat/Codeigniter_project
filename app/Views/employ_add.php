@@ -21,7 +21,7 @@
 <body> -->
   <div class="container mt-5">
     <form method="post" id="employ_add" name="employ_add" 
-    action="<?= site_url('/submit-employ') ?>">
+    action="<?= site_url('employ_add') ?>" enctype="multipart/form-data">
     <h1>Add Employ Information </h1>
       <div class="form-group">
         <label>Name:</label>
@@ -54,6 +54,11 @@
             </select>
           </div>
         </div>
+
+        <div class="form-group">
+        <label>Image:</label>
+        <input type="file" name="file" class="form-control">
+      </div>
 
       <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block">New Employ</button>

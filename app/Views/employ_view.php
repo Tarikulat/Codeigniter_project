@@ -23,6 +23,7 @@
                   <th>Phone</th>
                   <th>Age</th>
                   <th>Employee Designation</th>
+                  <th>Image</th>
                   <th>Action</th>
                </tr>
             </thead>
@@ -36,9 +37,11 @@
                         <td><?php echo $employ['phone']; ?></td>
                         <td><?php echo $employ['age']; ?></td>
                         <td><?php echo $employ['designation']; ?></td>
+                        <td><img src="<?= base_url('uploads/img/'.$employ['image']);?>" alt="" srcset="" width="36"></td>
+
                         <td>
-                           <a href="<?php echo base_url('/employ-view/' . $employ['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
-                           <a href="<?php echo base_url('/delete/' . $employ['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
+                           <a href="<?= base_url('/employ_edit/'). $employ['id']; ?>" class="btn btn-primary btn-sm">Edit</a>
+                           <a href="<?= base_url('/delete_employ/'). $employ['id']; ?>" class="btn btn-danger btn-sm">Delete</a>
                         </td>
                      </tr>
                   <?php endforeach; ?>

@@ -19,22 +19,26 @@ class EmployController extends Controller
     // insert data
     public function storeemploy() {
         $employModel = new EmployModel();
+        $file = $this->request->getFile('file');
+        $fileName = $file->getRandomName();
         $data = [
             'name' => $this->request->getVar('name'),
             'email'  => $this->request->getVar('email'),
             'phone'  => $this->request->getVar('phone'),
             'age'  => $this->request->getVar('age'),
             'designation'  => $this->request->getVar('designation'),
+            'image' => $fileName,
         ];
+        $file->move('uploads/img',$fileName);
         $employModel->insert($data);
         return $this->response->redirect(site_url('/employ_view'));
     }
 
     // show single employ
-    public function singleUser($id = null){
+    public function edit($id = null){
         $userModel = new EmployModel();
         $data['employ_obj'] = $userModel->where('id', $id)->first();
-        return view('employ_view', $data);
+        return view('employ_edit', $data);
     }
     // update employ data
     public function updateemploy(){
@@ -48,13 +52,13 @@ class EmployController extends Controller
             'designation'  => $this->request->getVar('designation'),
         ];
         $employModel->update($id, $data);
-        return $this->response->redirect(site_url('/employ-list'));
+        return redirect()->to('employ_view');
     }
  
     // delete employ
     public function delete($id = null){
         $employModel = new EmployModel();
         $data['employs'] = $employModel->where('id', $id)->delete($id);
-        return $this->response->redirect(site_url('/employ-list'));
+        return redirect()->to('employ_view');
     }    
 }

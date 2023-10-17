@@ -21,7 +21,7 @@
 <!-- </head>
 <body> -->
 <div class="container mt-5">
-  <form method="post" id="employ_update" name="employ_update" action="<?= site_url('/update') ?>">
+  <form method="post" id="employ_update" name="employ_update" action="<?= site_url('/update_employ') ?>">
 
     <input type="hidden" name="id" id="id" value="<?php echo $employ_obj['id']; ?>">
     <div class="form-group">
