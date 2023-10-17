@@ -2,18 +2,31 @@
 namespace App\Controllers;
 use App\Models\BookModel;
 use CodeIgniter\Controller;
+use App\Models\RoomType;
+use App\Models\person;
+
 class Book extends Controller
 {
     // show users list
     public function index(){
         $userModel = new BookModel();
-        $data['book'] = $userModel->orderBy('id', 'DESC')->findAll();
+        $data['book'] = $userModel
+        ->join('roomcatagory','roomcatagory.room_id = book.roomtype')
+        ->join('person','person.person_id = book.guests')
+
+        ->orderBy('id', 'DESC')->findAll();
         return view('book_view', $data);
     }
     
     // add user form
     public function create(){
-        return view('book_add');
+        $type = new RoomType();
+        $data['roomtype'] = $type->findAll();
+
+        $person = new person();
+        $data['person'] = $person->findAll();
+
+        return view('book_add',$data);
     }
  
     // insert data
@@ -40,6 +53,13 @@ class Book extends Controller
     public function singleUser($id){
         $userModel = new BookModel();
         $data['book_obj'] = $userModel->where('id', $id)->first();
+
+        $type = new RoomType();
+        $data['roomtype'] = $type->findAll();
+
+        $person = new person();
+        $data['person'] = $person->findAll();
+
         return view('book_edit', $data);
     }
     // update user data
@@ -57,6 +77,7 @@ class Book extends Controller
             'depdate' => $this->request->getPost('depdate'),
             'deptime' => $this->request->getPost('deptime'),
             'stay'  => $this->request->getPost('stay'),
+            'status'  => $this->request->getPost('status')
         ];
         $userModel->update($id, $data);
         return $this->response->redirect(site_url('/book-list'));

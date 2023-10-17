@@ -134,3 +134,60 @@ in APPPATH\Views\backend\common\dashboard.php on line 44.
 12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('G:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+INFO - 2023-10-17 03:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-17 04:44:02 --> mysqli_sql_exception: Column 'roomtype' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\Book.php(42): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\Book->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Codeigniter_project\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-17 04:44:02 --> Column 'roomtype' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `book` (`address`, `roomtype`, `guests`, `first`, `last`, `contract`, `arridate`, `arritime`, `depdate`, `deptime`, `stay`) VALUES (:address:, :roomtype:, :guests:, :first:, :last:, :contract:, :arridate:, :arritime:, :depdate:, :deptime:, :stay:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Book.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Book->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')
+ERROR - 2023-10-17 04:45:08 --> mysqli_sql_exception: Column 'roomtype' cannot be null in E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\xampp\htdocs\Codeigniter_project\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bo...', 0)
+#1 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 E:\xampp\htdocs\Codeigniter_project\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 E:\xampp\htdocs\Codeigniter_project\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\xampp\htdocs\Codeigniter_project\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\xampp\htdocs\Codeigniter_project\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\xampp\htdocs\Codeigniter_project\app\Controllers\Book.php(42): CodeIgniter\Model->insert(Array)
+#8 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(919): App\Controllers\Book->store()
+#9 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+#10 E:\xampp\htdocs\Codeigniter_project\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\Codeigniter_project\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\Codeigniter_project\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-17 04:45:08 --> Column 'roomtype' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `book` (`address`, `roomtype`, `guests`, `first`, `last`, `contract`, `arridate`, `arritime`, `depdate`, `deptime`, `stay`) VALUES (:address:, :roomtype:, :guests:, :first:, :last:, :contract:, :arridate:, :arritime:, :depdate:, :deptime:, :stay:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Book.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Book->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Book))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs\\Codeigniter_project\\public\\index.php')

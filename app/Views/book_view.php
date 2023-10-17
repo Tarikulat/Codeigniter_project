@@ -20,6 +20,7 @@
                   <th >Booking Id</th>
                   <!-- <th>Adress:</th> -->
                   <th>Room Type:</th>
+                  <th>Room Price:</th>
                   <th>Number of Guests:</th>
                   <!-- <th>First Name:</th>
                   <th>Last Name:</th> -->
@@ -41,8 +42,10 @@
                         <td><?php echo $booking['id']; ?></td>
 
                         <!-- <td><?php echo $booking['address']; ?></td> -->
-                        <td><?php echo $booking['roomtype']; ?></td>
-                        <td><?php echo $booking['guests']; ?></td>
+                        <td><?php echo $booking['type_name']; ?></td>
+                        <td><?php echo $booking['room_price']; ?></td>
+
+                        <td><?php echo $booking['personq']; ?></td>
 
                         <!-- <td><?php echo $booking['first']; ?></td>
                         <td><?php echo $booking['last']; ?></td> -->
@@ -54,7 +57,7 @@
                         <td><?php echo $booking['deptime']; ?></td> -->
 
                         <td><?php echo $booking['stay']; ?></td>
-                        <td></td>
+                        <td><?php echo $booking['status']; ?></td>
                         <td>
                            <a href="<?php echo base_url('book-print/'.$booking['id']); ?>" class="btn btn-warning btn-sm">Views</a>
                            <a href="<?php echo base_url('book-edit/'.$booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
