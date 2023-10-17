@@ -20,6 +20,7 @@
     action="<?= base_url('book-update/').$book_obj["id"]?>">
    
     <div class="form-group">
+      <div>
           <label>Adress:</label>
           <input type="text" name="address" class="form-control" placeholder="Input your address" value="<?php echo $book_obj['address']; ?>">
         </div>
@@ -52,14 +53,14 @@
         </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col">
             <input type="text" name="first" class="form-control" placeholder="First name" value="<?php echo $book_obj['first']; ?>">
           </div>
           <div class="col">
             <input type="text" name="last" class="form-control" placeholder="Last name" value="<?php echo $book_obj['last']; ?>">
           </div>
-        </div>
+        </div> -->
 
         <div class="form-group">
           <label>Contract Number:</label>
@@ -73,14 +74,14 @@
               <input type="date" name="arridate" class="form-control" value="<?php echo $book_obj['arridate']; ?>">
             </div>
           </div>
-          <div class="col">
+          <!-- <div class="col">
             <div class="form-group">
               <label>Check-in time</label>
               <input type="time" name="arritime" class="form-control" value="<?php echo $book_obj['arritime']; ?>">
             </div>
-          </div>
+          </div> -->
         </div>
-
+<!-- 
         <div class="row">
           <div class="col">
             <div class="form-group">
@@ -94,7 +95,7 @@
               <input type="time" name="deptime" class="form-control" value="<?php echo $book_obj['deptime']; ?>">
             </div>
           </div>
-        </div>
+        </div> -->
       <div class="form-group">
         <label>Days of Stay</label>
         <input type="text" name="stay" class="form-control" value="<?php echo $book_obj['stay']; ?>">
@@ -102,6 +103,7 @@
 
       <div class="form-group">
         <button type="submit" class="btn btn-danger btn-block">Save Data</button>
+      </div>
       </div>
     </form>
   </div>

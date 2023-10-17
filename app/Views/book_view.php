@@ -6,18 +6,18 @@
 <div class="d-flex">
    <div class="col-md-2 mt-4 p-5"></div>
    <div class="col-md-10 mt-4 p-5">
-      <h1 class="text-center p-3 mb-2 bg-danger text-white">New Booking List</h1>
+      <h1 class="text-center p-3 mb-2 bg-success text-white">New Booking List</h1>
 
       <?php
       if (isset($_SESSION['msg'])) {
          echo $_SESSION['msg'];
       }
       ?>
-      <div class="mt-3">
+      <div class="mt-3 p-5">
          <table class="table table-bordered" id="book-list">
             <thead>
                <tr>
-                  <th>Booking Id</th>
+                  <th >Booking Id</th>
                   <!-- <th>Adress:</th> -->
                   <th>Room Type:</th>
                   <th>Number of Guests:</th>
