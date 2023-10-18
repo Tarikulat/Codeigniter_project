@@ -1,38 +1,40 @@
-<?php 
+<?php
 namespace App\Controllers;
 use App\Models\BookModel;
 use CodeIgniter\Controller;
 use App\Models\RoomType; //for roomtype dropdown
 use App\Models\Person;   //for person dropdown
 
-class Book extends Controller
-{
-    // show users list
+
+
+    class Book extends Controller{
+
+    //............show booking list..........
     public function index(){
         $userModel = new BookModel();
         $data['book'] = $userModel
-        ->join('roomcatagory','roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
-        ->join('person','person.person_id = book.guests')
+            ->join('roomcatagory', 'roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
+            ->join('person', 'person.person_id = book.guests')
 
-        ->orderBy('id', 'DESC')->findAll();  //rk_hs 
+            ->orderBy('id', 'DESC')->findAll();  //rk_hs 
         return view('book_view', $data);
-    }
-    
-    // add user form
+        }
+
+
+    //............. add data booking form...........
     public function create(){
         $type = new RoomType();
         $data['roomtype'] = $type->findAll();
 
         $person = new Person();
         $data['person'] = $person->findAll();
+        return view('book_add', $data);
+        }
 
-        return view('book_add',$data);
-    }
- 
-    // insert data
-    public function store() {
+
+    //..............insert booking form data...............
+    public function store(){
         $userModel = new BookModel();
-
         $data = [
             'address' => $this->request->getPost('address'),
             'roomtype' => $this->request->getPost('roomtype'),
@@ -48,9 +50,11 @@ class Book extends Controller
         ];
         $userModel->insert($data);
         return $this->response->redirect(site_url('/book-form'));
-    }
+        }
+
+
     // show single user for booking...Edit
-    public function singleUser($id){
+    public function singleUser($id) {
         $userModel = new BookModel();
         $data['book_obj'] = $userModel->where('id', $id)->first();
 
@@ -61,9 +65,11 @@ class Book extends Controller
         $data['person'] = $person->findAll();
 
         return view('book_edit', $data);
-    }
-    // update user data
-    public function update($id){
+        }
+
+
+    //.............edit booking data.............
+    public function update($id) {
         $userModel = new BookModel();
         $data = [
             'address' => $this->request->getPost('address'),
@@ -81,18 +87,22 @@ class Book extends Controller
         ];
         $userModel->update($id, $data);
         return $this->response->redirect(site_url('/book-list'));
-    }
- 
-    //Single Print
+        }
+
+
+    //...........Single Print.............
     public function singleprint($id){
         $userModel = new BookModel();
         $data['book'] = $userModel->where('id', $id)->first();
         return view('book_print', $data);
-    }
-    // delete user
-    public function delete($id){
+        }
+
+
+
+    //...........delete data in booking..........
+    public function delete($id) {
         $userModel = new BookModel();
         $data['book'] = $userModel->where('id', $id)->delete($id);
         return redirect()->to('/book-list');
-    }    
+        }   
 }

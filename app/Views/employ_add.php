@@ -47,10 +47,9 @@
             <label>Employee Designation:</label>
             <select class="form-select form-control" name="designation">
               <option selected>Select a designation</option>
-              <option value="1">Hotel Manager</option>
-              <option value="2">Receptionist</option>
-              <option value="3">Executive chef</option>
-              <option value="4">Night auditor</option>
+              <?php foreach($EmpCata as $row) : ?>
+              <option value="<?= $row['cata_id']?>"><?= $row['cata_name'] ?></option>
+                <?php endforeach ?>
             </select>
           </div>
         </div>

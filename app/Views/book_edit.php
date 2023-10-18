@@ -16,6 +16,7 @@
 </style>
 
 <div class="container mt-5 p-5">
+<h2 class="text-center">Edit Booking List</h2>
   <form method="post" id="update_book" name="update_book" action="<?= base_url('book-update/') . $book_obj["id"] ?>">
 
     <div class="form-group">

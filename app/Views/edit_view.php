@@ -15,7 +15,8 @@
   </style>
 <!-- </head>
 <body> -->
-  <div class="container mt-5">
+  <div class="container p-5 mt-5">
+  <h2 class="text-center">Edit User List</h2>
     <form method="post" id="update_user" name="update_user" 
     action="<?= site_url('/update') ?>">
     

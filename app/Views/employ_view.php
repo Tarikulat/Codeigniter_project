@@ -36,7 +36,7 @@
                         <td><?php echo $employ['email']; ?></td>
                         <td><?php echo $employ['phone']; ?></td>
                         <td><?php echo $employ['age']; ?></td>
-                        <td><?php echo $employ['designation']; ?></td>
+                        <td><?php echo $employ['cata_name']; ?></td>
                         <td><img src="<?= base_url('uploads/img/'.$employ['image']);?>" alt="" srcset="" width="50"></td>
 
                         <td>
