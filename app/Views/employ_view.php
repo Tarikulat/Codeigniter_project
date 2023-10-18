@@ -37,7 +37,7 @@
                         <td><?php echo $employ['phone']; ?></td>
                         <td><?php echo $employ['age']; ?></td>
                         <td><?php echo $employ['designation']; ?></td>
-                        <td><img src="<?= base_url('uploads/img/'.$employ['image']);?>" alt="" srcset="" width="36"></td>
+                        <td><img src="<?= base_url('uploads/img/'.$employ['image']);?>" alt="" srcset="" width="50"></td>
 
                         <td>
                            <a href="<?= base_url('/employ_edit/'). $employ['id']; ?>" class="btn btn-primary btn-sm">Edit</a>

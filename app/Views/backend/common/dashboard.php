@@ -39,13 +39,13 @@
       </div>
 
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-info">
+        <div class="small-box bg-red">
           <div class="inner">
-            <h3>rooms</h3>
+            <h3><?= $room ?></h3>
             <p> Room Catagory List</p>
           </div>
           <div class="icon">
-            <i class="ion ion-location-add"></i>
+            <i class="ion ion-person-add"></i>
           </div>
           <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
         </div>
@@ -55,7 +55,7 @@
       <div class="col-lg-3 col-xs-6">
         <div class="small-box bg-green">
           <div class="inner">
-            <h3>45<sup style="font-size: 20px">%</sup></h3>
+            <h3>26<sup style="font-size: 20px">%</sup></h3>
             <p>Mothly Profit Rate</p>
           </div>
           <div class="icon">
@@ -65,9 +65,9 @@
         </div>
       </div>
       <div class="col-lg-3 col-xs-6">
-        <div class="small-box bg-red">
+        <div class="small-box bg-warning">
           <div class="inner">
-            <h3>65</h3>
+            <h3><?= $employs ?></h3>
             <p>Employs</p>
           </div>
           <div class="icon">

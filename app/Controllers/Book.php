@@ -3,7 +3,7 @@ namespace App\Controllers;
 use App\Models\BookModel;
 use CodeIgniter\Controller;
 use App\Models\RoomType; //for roomtype dropdown
-use App\Models\person;   //for person dropdown
+use App\Models\Person;   //for person dropdown
 
 class Book extends Controller
 {
@@ -23,7 +23,7 @@ class Book extends Controller
         $type = new RoomType();
         $data['roomtype'] = $type->findAll();
 
-        $person = new person();
+        $person = new Person();
         $data['person'] = $person->findAll();
 
         return view('book_add',$data);
@@ -57,7 +57,7 @@ class Book extends Controller
         $type = new RoomType();              //dropdown rk_sh 
         $data['roomtype'] = $type->findAll();
 
-        $person = new person();               //dropdown rk_sh 
+        $person = new Person();               //dropdown rk_sh 
         $data['person'] = $person->findAll();
 
         return view('book_edit', $data);

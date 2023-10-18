@@ -162,7 +162,7 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="book-list">
+              <a href="<?php echo base_url(); ?>book-list">
                 <i class="fa fa-book"></i>
                 <span>Booking Details</span>
                 <i class="fa fa-angle-left pull-right"></i>
@@ -183,14 +183,14 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="rooms-list">
+              <a href="<?php echo base_url(); ?>rooms-list">
                 <i class="fa fa-list"></i>
                 <span>Room Catagory List</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li class="treeview">
-              <a href="room_post">
+              <a href="<?php echo base_url(); ?>room_post">
                 <i class="fa fa-bed"></i>
                 <span>Rooms Post</span>
                 <i class="fa fa-angle-left pull-right"></i>

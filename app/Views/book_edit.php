@@ -87,28 +87,7 @@
             <input type="date" name="arridate" class="form-control" value="<?php echo $book_obj['arridate']; ?>">
           </div>
         </div>
-        <!-- <div class="col">
-            <div class="form-group">
-              <label>Check-in time</label>
-              <input type="time" name="arritime" class="form-control" value="<?php echo $book_obj['arritime']; ?>">
-            </div>
-          </div> -->
-      </div>
-      <!-- 
-        <div class="row">
-          <div class="col">
-            <div class="form-group">
-              <label>Departure date:</label>
-              <input type="date" name="depdate" class="form-control" value="<?php echo $book_obj['depdate']; ?>">
-            </div>
-          </div>
-          <div class="col">
-            <div class="form-group">
-              <label>Check-out time:</label>
-              <input type="time" name="deptime" class="form-control" value="<?php echo $book_obj['deptime']; ?>">
-            </div>
-          </div>
-        </div> -->
+      
       <div class="form-group">
         <label>Days of Stay</label>
         <input type="text" name="stay" class="form-control" value="<?php echo $book_obj['stay']; ?>">
