@@ -182,6 +182,12 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
+            <li>
+              <a href="">
+                <i class="fa fa-calendar"></i> <span>Event</span>
+                <small class="label pull-right bg-red">3</small>
+              </a>
+            </li>
             <li class="treeview">
               <a href="<?php echo base_url(); ?>rooms-list">
                 <i class="fa fa-list"></i>

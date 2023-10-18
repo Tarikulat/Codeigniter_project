@@ -111,20 +111,5 @@
       })
     }
   </script>
-
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script>
-  $(document).ready(function(){
-    swal({
-      title: "Good job!",
-  text: "You clicked the button!",
-  icon: "success",
-  button: "Aww yiss!",
-    });
-<?php if(session()->getFlashdata('submit')) {?>
-<?php } ?>
-  
-});
-</script>
 <!-- </body>
 </html> -->

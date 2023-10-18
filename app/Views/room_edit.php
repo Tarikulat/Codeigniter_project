@@ -27,7 +27,7 @@
       <select class="form-select form-control" name="category">
         <option selected><?php echo $rooms['category']; ?></option>
         <option value="Deluxe Room">Deluxe Room</option>
-        <option value="Family ROOM">Family ROOM</option>
+        <option value="Family ROOM">Family Room</option>
         <option value="Single Room">Single Room</option>
         <option value="Twin Bed Room">Twin Bed Room</option>
       </select>

@@ -6,7 +6,11 @@
 <div class="d-flex">
    <div class="col-md-2 mt-4 p-5"></div>
    <div class="col-md-10 mt-4 p-5">
-      <h1 class="text-center p-3 mb-2 bg-success text-white">New Booking List</h1>
+      <h1 class="text-center p-3 mb-2 bg-success text-white">New Booking List View</h1>
+
+      <div class="d-flex justify-content-end">
+      <a href="<?php echo site_url('/book-form') ?>" class="btn btn-success mb-2">Add Booking</a>
+    </div>
 
       <?php
       if (isset($_SESSION['msg'])) {
