@@ -30,8 +30,9 @@ $routes->get( 'dashboard', 'Master::dashboard');
 
 // BOOKING RESTful Routes 1
 $routes->get('book-list', 'Book::index');
-$routes->get('book-form', 'Book::create');
-$routes->post('book-form', 'Book::store');
+$routes->get('book-form/(:num)', 'Book::create/$1');
+$routes->get('booking-form', 'Book::booking');
+$routes->post('book-forms', 'Book::store');
 $routes->get('book-edit/(:num)', 'Book::singleUser/$1');
 $routes->post('book-update/(:num)', 'Book::update/$1');
 $routes->get('book-print/(:num)', 'Book::singleprint/$1'); //Book Print

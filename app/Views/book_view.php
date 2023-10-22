@@ -1,6 +1,5 @@
-
-<?= $this->extend('backend/common/dheader');?>
-<?= $this->section('content');?>
+<?= $this->extend('backend/common/dheader'); ?>
+<?= $this->section('content'); ?>
 
 
 <div class="d-flex">
@@ -9,8 +8,8 @@
       <h1 class="text-center p-3 mb-2 bg-success text-white">New Booking List View</h1>
 
       <div class="d-flex justify-content-end">
-      <a href="<?php echo site_url('/book-form') ?>" class="btn btn-success mb-2">Add Booking</a>
-    </div>
+         <a href="<?php echo site_url('/booking-form') ?>" class="btn btn-success mb-2">Add Booking</a>
+      </div>
 
       <?php
       if (isset($_SESSION['msg'])) {
@@ -21,7 +20,7 @@
          <table class="table table-bordered" id="book-list">
             <thead>
                <tr>
-                  <th >Booking Id</th>
+                  <th>Booking Id</th>
                   <!-- <th>Adress:</th> -->
                   <th>Room Type:</th>
                   <th>Room Price:</th>
@@ -36,7 +35,7 @@
                   <th>Days of Stay</th>
                   <th>Status</th>
                   <th>Action</th>
-                  
+
                </tr>
             </thead>
             <tbody>
@@ -63,8 +62,8 @@
                         <td><?php echo $booking['stay']; ?></td>
                         <td><?php echo $booking['status']; ?></td>
                         <td>
-                           <a href="<?php echo base_url('book-print/'.$booking['id']); ?>" class="btn btn-warning btn-sm">Views</a>
-                           <a href="<?php echo base_url('book-edit/'.$booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
+                           <a href="<?php echo base_url('book-print/' . $booking['id']); ?>" class="btn btn-warning btn-sm">Views</a>
+                           <a href="<?php echo base_url('book-edit/' . $booking['id']); ?>" class="btn btn-primary btn-sm">Edit</a>
                            <a href="<?php echo base_url('book-delete/' . $booking['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                         </td>
                      </tr>
@@ -75,9 +74,9 @@
       </div>
    </div>
 </div>
-<?= $this->endSection('content');?>
-   <script>
-      $(document).ready(function() {
-         $('#book-list').DataTable();
-      });
-   </script>
+<?= $this->endSection('content'); ?>
+<script>
+   $(document).ready(function() {
+      $('#book-list').DataTable();
+   });
+</script>

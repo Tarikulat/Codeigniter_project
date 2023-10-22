@@ -4,6 +4,7 @@ use App\Models\BookModel;
 use CodeIgniter\Controller;
 use App\Models\RoomType; //for roomtype dropdown
 use App\Models\Person;   //for person dropdown
+use App\Models\RoomModel;
 
 
 
@@ -15,19 +16,31 @@ use App\Models\Person;   //for person dropdown
         $data['book'] = $userModel
             ->join('roomcatagory', 'roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
             ->join('person', 'person.person_id = book.guests')
-
-            ->orderBy('id', 'DESC')->findAll();  //rk_hs 
+            ->orderBy('book.id', 'DESC')->findAll();  //rk_hs 
         return view('book_view', $data);
         }
 
+        public function booking(){
+            $type = new RoomType();
+            $data['roomtype'] = $type->findAll();
+    
+            $person = new Person();
+            $data['person'] = $person->findAll();
+
+            return view('book_adds', $data);
+            }
 
     //............. add data booking form...........
-    public function create(){
+    public function create($id = null){
         $type = new RoomType();
         $data['roomtype'] = $type->findAll();
 
         $person = new Person();
         $data['person'] = $person->findAll();
+
+        $roomaddModel = new RoomModel();
+        $data['rooms'] = $roomaddModel->where('id', $id)->first();
+
         return view('book_add', $data);
         }
 
@@ -49,7 +62,7 @@ use App\Models\Person;   //for person dropdown
             'stay'  => $this->request->getPost('stay'),
         ];
         $userModel->insert($data);
-        return $this->response->redirect(site_url('/book-form'));
+        return $this->response->redirect(site_url('/'));
         }
 
 
@@ -91,7 +104,7 @@ use App\Models\Person;   //for person dropdown
 
 
     //...........Single Print.............
-    public function singleprint($id){
+    public function singleprint($id = null){
         $userModel = new BookModel();
         $data['book'] = $userModel->where('id', $id)->first();
         return view('book_print', $data);

@@ -19,8 +19,41 @@
 </head>
 
 <body>
+
+<div class="container mt-5">
+  <div class="row">
+  <div class="row g-4">
+      <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="room-item shadow rounded overflow-hidden">
+          <div class="position-relative">
+            <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/room-1.jpg" alt="">
+          </div>
+          <div class="p-4 mt-2">
+            <div class="d-flex justify-content-between mb-3">
+              <h5 class="mb-0"><?= $rooms['category'] ?></h5>
+              <h5 class="mb-0 text-success"> ৳ <?= $rooms['cost'] ?></h5>
+              <div class="ps-2">
+                <small class="fa fa-star text-primary"></small>
+                <small class="fa fa-star text-primary"></small>
+                <small class="fa fa-star text-primary"></small>
+                <small class="fa fa-star text-primary"></small>
+                <small class="fa fa-star text-primary"></small>
+              </div>
+            </div>
+            <div class="d-flex mb-3">
+              <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+              <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+              <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+            </div>
+            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
   <div class="container mt-5 border border-info">
-    <form method="post" id="book_create" name="book_create" action="">
+    <form method="post" id="book_create" name="book_create" action="<?= base_url('book-forms') ?>">
       <h1 class="text-success text-center">Hotel Booking From </h1>
 
       <div class="form-group">
@@ -33,12 +66,9 @@
           <div class="form-group">
             <label>Category:</label>
             <select class="form-select form-control" name="roomtype">
-              <option selected>select menu</option>
-              <!-- rak_hs for dropdrown room type 1   (next book_edi+ modelcreate=roomtype,person +cotroller) -->
-              <?php foreach ($roomtype as $row) : ?>      
+            <?php foreach ($roomtype as $row) : ?>
                 <option value="<?= $row['room_id'] ?>"><?= $row['type_name'] ?></option>
               <?php endforeach ?>
-              <!-- rak_hs end-->
             </select>
           </div>
         </div>
