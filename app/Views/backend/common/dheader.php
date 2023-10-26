@@ -155,7 +155,7 @@
           </form>
           <ul class="sidebar-menu">
             <li class="treeview">
-              <a href="master">
+              <a href="<?php echo base_url(); ?>master">
                 <i class="fa fa-home"></i>
                 <span>Home</span>
                 <i class="fa fa-angle-left pull-right"></i>
@@ -169,21 +169,21 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="#">
+              <a href="<?php echo base_url(); ?>check_in">
                 <i class="fa fa-check"></i>
                 <span>Check-in</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li class="treeview">
-              <a href="#">
+              <a href="<?php echo base_url(); ?>check_out">
                 <i class="fa fa-check"></i>
                 <span>Check-out</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="<?php echo base_url(); ?>">
                 <i class="fa fa-calendar"></i> <span>Event</span>
                 <small class="label pull-right bg-red">3</small>
               </a>
@@ -215,7 +215,7 @@
               </a>
             </li>
             <li class="treeview">
-              <a href="#">
+              <a href="<?php echo base_url(); ?>">
                 <i class="fa fa-laptop"></i> <span>Reports</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>

@@ -118,4 +118,28 @@ use App\Models\RoomModel;
         $data['book'] = $userModel->where('id', $id)->delete($id);
         return redirect()->to('/book-list');
         }   
+
+
+        //...........Check-in and check-out Routes...............
+        public function checkin(){
+            $userModel = new BookModel();
+            $data['book'] = $userModel
+                ->join('roomcatagory', 'roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
+                ->join('person', 'person.person_id = book.guests')
+                ->orderBy('book.id', 'DESC')->findAll();  //rk_hs 
+            return view('check_in', $data);
+            }
+
+            public function checkout(){
+                $userModel = new BookModel();
+                $data['book'] = $userModel
+                    ->join('roomcatagory', 'roomcatagory.room_id = book.roomtype')  //tablerelation ...rk_hs roomcatagory(table)
+                    ->join('person', 'person.person_id = book.guests')
+                    ->orderBy('book.id', 'DESC')->findAll();  //rk_hs 
+                return view('check_out', $data);
+                }
+
 }
+
+
+

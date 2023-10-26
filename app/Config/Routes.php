@@ -77,8 +77,9 @@ $routes->post('update_employ', 'EmployController::updateemploy');
 $routes->get('delete_employ/(:num)', 'EmployController::delete/$1');
  
 
-//sweet alert
-$routes->get('notification', 'MessageController::showSweetAlertMessages');
+// check in...check out...routes....
+$routes->get('check_in', 'Book::checkin');
+$routes->get('check_out', 'Book::checkout');
 
 
 
