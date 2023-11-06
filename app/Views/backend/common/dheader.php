@@ -216,7 +216,7 @@
             </li>
             <li class="treeview">
               <a href="<?php echo base_url(); ?>">
-                <i class="fa fa-laptop"></i> <span>Reports</span>
+                <i class="fa fa-laptop"></i> <span>front info</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>

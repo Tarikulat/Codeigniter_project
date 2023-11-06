@@ -47,7 +47,7 @@
     <div class="container-fluid bg-dark px-0">
       <div class="row gx-0">
         <div class="col-lg-3 bg-dark d-none d-lg-block">
-          <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+          <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
             <h1 class="m-0 text-primary text-uppercase">Hotel Nclc</h1>
           </a>
         </div>
@@ -74,7 +74,7 @@
             </div>
           </div>
           <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-            <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <a href="" class="navbar-brand d-block d-lg-none">
               <h1 class="m-0 text-primary text-uppercase">Hotel</h1>
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -89,7 +89,7 @@
                 <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                   <div class="dropdown-menu rounded-0 m-0">
-                    <a href="<?= base_url("/book-form")?>" class="dropdown-item">Booking</a>
+                    <a href="<?= base_url("/booking-form")?>" class="dropdown-item">Booking from</a>
                     <a href="<?php echo base_url(); ?>team" class="dropdown-item">Our Team</a>
                     <a href="<?php echo base_url(); ?>room" class="dropdown-item">Packages</a>
                   </div>
@@ -118,7 +118,7 @@
                         <div class="bg-primary rounded p-4">
                             <a href="index.html"><h1 class="text-white text-uppercase mb-3">Hotel Nclc</h1></a>
                             <p class="text-white mb-0">
-								Download details for <a class="text-dark fw-medium" href="https://htmlcodex.com/hotel-html-template-pro">Hotel Nclc – Important information</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
+								Download details for <a class="text-dark fw-medium" href="">Hotel Nclc – Important information</a>, build a professional website for your hotel business and grab the attention of new visitors upon your site’s launch.
 							</p>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                             &copy; <a class="border-bottom" href="#">Md Tarikul Islam</a>, All Right Reserved. 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">Codeigniter</a>
+							Designed By <a class="border-bottom" href="">Codeigniter</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">

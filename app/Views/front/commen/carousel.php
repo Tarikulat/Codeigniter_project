@@ -8,8 +8,8 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Welcome to </h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Find your happy place.</h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                                <a href="<?= base_url("book-form")?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Booking Room</a>
+                                <a href="<?= base_url("booking-form")?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
+                                <a href="<?= base_url("booking-form")?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Hotel Booking</a>
                             </div>
                         </div>
                     </div>
@@ -19,8 +19,8 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Stunning views </h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">The perfect place to feel like a local. </h1>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                                <a href="<?= base_url("book-form")?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Booking Room</a>
+                                <a href="<?= base_url("booking-form")?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
+                                <a href="<?= base_url("booking-form")?>" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Hotel Booking</a>
                             </div>
                         </div>
                     </div>
