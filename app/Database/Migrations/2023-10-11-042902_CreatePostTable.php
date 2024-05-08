@@ -3,7 +3,7 @@
 namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
-
+// use CodeIgniter
 class CreatePostTable extends Migration
 {
     public function up() {
